@@ -3,7 +3,7 @@ import {
   BarepapersLogo,
   BimLogo,
   CDGOLogo,
-  ClevertechLogo,
+  UltracombosLogo,
   ConsultlyLogo,
   EvercastLogo,
   Howdy,
@@ -13,11 +13,14 @@ import {
   MobileVikingsLogo,
   MonitoLogo,
   NSNLogo,
-  ParabolLogo,
+  UISLogo,
+  ASULogo,
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+
+type WorkDescription = string | string[];
 
 export const RESUME_DATA = {
   name: "Tz-Shiuan Peng",
@@ -25,7 +28,7 @@ export const RESUME_DATA = {
   location: "Tempe, Arizona, United States",
   locationLink: "https://www.google.com/maps/place/Tempe",
   about:
-    "UX Researcher and Interaction Designer, excelling in Unity and data-driven user experiences.",
+    "UX Researcher and Interaction Designer, excelling in data-driven user experiences.",
   summary:
     "As an Interaction Designer and User Researcher, I create interactive prototypes and perform mixed methods research to empower data-driven decision making. I lead teams effectively, ensuring an agile and scalable workflow with detailed deliverables. Currently, I work mostly with Figma, UserTesting, TypeScript, and Unity. I am currently located in Arizona but I'm ready to relocate anywhere in the US.",
   avatarUrl: "https://avatars.githubusercontent.com/u/24285735?s=400&u=bfca72b9b9b815b1d88fe734196a7526af4a11e6&v=4",
@@ -66,11 +69,25 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "United Integrated Services",
+      link: "https://uisusacorp.com",
+      badges: ["On Site"],
+      title: "Project Engineer",
+      logo: UISLogo,
+      start: "Aug 2024",
+      end: "Current",
+      description: [
+        "Spearheaded the handover of control systems at TSMC FAB 21, ensuring factory control systems met production efficiency requirements.",
+        "Managed cross-functional coordination between automation, engineering, and operations teams, optimizing system integration and efficiency.",
+        "Led logistics procurement and supply chain optimization, ensuring efficient resource allocation."
+      ],
+    },
+    {
       company: "ASU Learning Enterprise",
-      link: "https://parabol.co",
+      link: "https://learning.asu.edu",
       badges: ["Remote"],
       title: "User Experience Assistant",
-      logo: ParabolLogo,
+      logo: ASULogo,
       start: "Nov 2022",
       end: "Apr 2023",
       description:
@@ -78,10 +95,10 @@ export const RESUME_DATA = {
     },
     {
       company: "Ultracombos",
-      link: "https://clevertech.biz",
+      link: "https://www.ultracombos.com/en-us",
       badges: ["On Site"],
       title: "Interaction Design Intern",
-      logo: ClevertechLogo,
+      logo: UltracombosLogo,
       start: "Feb 2020",
       end: "Aug 2020",
       description:
@@ -105,7 +122,7 @@ export const RESUME_DATA = {
       techStack: ["Figma", "UX", "Design", "Information Architecture"],
       description:
         "Optimized information architecture and improved design",
-      logo: JarockiMeLogo,
+      
       link: {
         label: "Philips website",
         href: "https://thisistz.notion.site/Philips-Website-UX-study-784f7a897121468ebd08d79d4ad83733",
