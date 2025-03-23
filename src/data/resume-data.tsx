@@ -86,35 +86,40 @@ export const RESUME_DATA = {
       company: "ASU Learning Enterprise",
       link: "https://learning.asu.edu",
       badges: ["Remote"],
-      title: "User Experience Assistant",
+      title: "User Experience Researcher",
       logo: ASULogo,
       start: "Nov 2022",
       end: "Apr 2023",
-      description:
-        "Conducted over 50 user interviews using mixed methods, analyzed data from 100+ surveys to identify user pain points, utilized UserTesting and Airtable for feedback analysis, led cross-functional teams in presenting research findings, and influenced the adoption of new technology in products.",
+      description:[
+        "Developed an automated data collection framework, structuring insights into a scalable database.",
+        "Conducted data-driven UX research, analyzing 100+ user interactions to identify process inefficiencies and optimize decision-making.",
+      ]
     },
     {
       company: "Ultracombos",
       link: "https://www.ultracombos.com/en-us",
       badges: ["On Site"],
-      title: "Interaction Design Intern",
+      title: "Interaction Engineer",
       logo: UltracombosLogo,
       start: "Feb 2020",
       end: "Aug 2020",
-      description:
-        "Created a data collection system employing Unity and AR Kit, enhancing visitor engagement with an interactive cycling culture experience. Spearheaded the creation of Unity and Intel RealSense-based interactive installations, immersing 2.5 million visitors in a blend of design and local cultural elements.",
+      description:[
+        "Collected and analyzed real-time movement data to optimize visualization systems, improving UX for 2.5M+ users",
+        "Worked with cross-disciplinary teams to bridge data visualization and human-machine interaction, applicable to infotainment UI/UX."
+      ]
     },
   ],
   skills: [
-    "User Centered Design",
-    "Figma",
+    "User Research",
+    "Data Visualization",
     "Information Architecture",
     "Usability testing",
-    "Mixed Methods Research",
-    "C#",
-    "Next.js",
+    "Rapid Prototyping",
+    "Figma",
     "Unity",
+    "C#",
     "Python",
+    "Next.js",
   ],
   projects: [
     {
@@ -129,14 +134,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Uniqlo website",
-      techStack: ["Figma", "UX", "Design"],
+      title: "GIANT Museum",
+      techStack: ["Unity", "Interaction Design", "Shaders", "Augmented Reality"],
       description:
-        "Improved design and navigation for a smoother checkout process",
-      logo: BarepapersLogo,
+        "Data collection system and interactive AR installation",
       link: {
-        label: "barepapers.com",
-        href: "https://thisistz.notion.site/Uniqlo-website-UX-study-11e828022ef648009d54457b021eb2c4",
+        label: "GIANT",
+        href: "https://thisistz.notion.site/Giant-Cycling-Culture-Museum-7fe29bd822bc47ddb658f5f3edd4211f",
       },
     },
     {
@@ -151,6 +155,27 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Taiwan Design Expo",
+      techStack: ["Unity", "Interaction Design", "VFX", "Mixed Reality"],
+      description:
+        "Entrance installation using motion data",
+      link: {
+        label: "Taiwan Design Expo",
+        href: "https://thisistz.notion.site/Taiwan-Design-Expo-bb998769c23747d69b8f61220b2c0eab",
+      },
+    },
+    {
+      title: "Uniqlo website",
+      techStack: ["Figma", "UX", "Design"],
+      description:
+        "Improved design and navigation for a smoother checkout process",
+      logo: BarepapersLogo,
+      link: {
+        label: "barepapers.com",
+        href: "https://thisistz.notion.site/Uniqlo-website-UX-study-11e828022ef648009d54457b021eb2c4",
+      },
+    },
+    {
       title: "Hidden Dusk",
       techStack: [
         "Unity",
@@ -162,26 +187,6 @@ export const RESUME_DATA = {
       link: {
         label: "Hidden Dusk",
         href: "https://thisistz.notion.site/Hidden-Dusk-b472ef7ff37f46929e2655a20b909976",
-      },
-    },
-    {
-      title: "Taiwan Design Expo",
-      techStack: ["Unity", "Interaction Design", "VFX", "Mixed Reality"],
-      description:
-        "Entrance installation using motion data",
-      link: {
-        label: "Taiwan Design Expo",
-        href: "https://thisistz.notion.site/Taiwan-Design-Expo-bb998769c23747d69b8f61220b2c0eab",
-      },
-    },
-    {
-      title: "GIANT Museum",
-      techStack: ["Unity", "Interaction Design", "Shaders", "Augmented Reality"],
-      description:
-        "Data collection system and interactive AR installation",
-      link: {
-        label: "GIANT",
-        href: "https://thisistz.notion.site/Giant-Cycling-Culture-Museum-7fe29bd822bc47ddb658f5f3edd4211f",
       },
     },
   ],
