@@ -28,9 +28,9 @@ export const RESUME_DATA = {
   location: "Tempe, Arizona, United States",
   locationLink: "https://www.google.com/maps/place/Tempe",
   about:
-    "UX Researcher and Interaction Designer, excelling in data-driven user experiences.",
+    "UX Researcher and Interaction Engineer, excelling in data-driven user experiences.",
   summary:
-    "As an Interaction Designer and User Researcher, I create interactive prototypes and perform mixed methods research to empower data-driven decision making. I lead teams effectively, ensuring an agile and scalable workflow with detailed deliverables. Currently, I work mostly with Figma, UserTesting, TypeScript, and Unity. I am currently located in Arizona but I'm ready to relocate anywhere in the US.",
+    "As a User Researcher and Interaction Engineer, I create interactive prototypes and perform mixed methods research to empower data-driven decision making. I lead teams effectively, ensuring an agile and scalable workflow with detailed deliverables. Currently, I work mostly with Figma, UserTesting, TypeScript, and Unity. I am currently located in Arizona but I'm ready to relocate anywhere in the US.",
   avatarUrl: "https://avatars.githubusercontent.com/u/24285735?s=400&u=bfca72b9b9b815b1d88fe734196a7526af4a11e6&v=4",
   personalWebsiteUrl: "https://this-is-tz.super.site",
   contact: {
